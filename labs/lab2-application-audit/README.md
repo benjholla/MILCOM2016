@@ -5,6 +5,12 @@ The LoginSideChannels project is a Java Server Page (JSP) web app vulnerable to 
 
 The binary of this application can be analyzed using [Atlas](http://www.ensoftcorp.com/atlas/) with the [AtlasWBP](https://github.com/benjholla/AtlasWBP) plugin frontend. It is not necessary to run this application unless you wish to perform dynamic analysis.
 
+While it is not necessary to complete the lab you may also find the following Atlas Toolboxes of use.
+
+- [Toolbox Commons](https://github.com/EnSoftCorp/toolbox-commons)
+- [Jimple Toolbox Commons](https://github.com/EnSoftCorp/jimple-toobox-commons)
+- [Slicing Toolbox](https://github.com/EnSoftCorp/slicing-toolbox)
+
 ## Runtime Requirements
 This application requires a MySQL server.  The web application assumes the MySQL server is running on the localhost at port 3306.  The app connects to the server with the username "root" and the password "badpass".  These details can be changed in the Database.java class.
 
